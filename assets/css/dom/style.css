@@ -1,0 +1,40 @@
+body{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+form{
+    background-color: red;
+    padding:50px;
+    border-radius: 15px;
+    /* width="100" */
+}
+.form-group{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 40px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input{
+    padding: 8px;
+    color: chartreuse;
+    margin-top: 10px;
+    border-color: purple;
+}
+
+

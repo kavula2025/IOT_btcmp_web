@@ -1,0 +1,133 @@
+
+*{
+    --primary-color:#0c5f25;
+    --secondary-color:black;
+    --text-white:#ffffff;
+    --border-radius:90px;
+    --light-color:rgb(144, 212, 144);
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: var(--text-white);
+    display: flex;
+    align-items: center;
+}
+
+.header-logo{
+    flex: 2;
+}
+.header-logo a img{
+    height: 80px;
+}
+
+.header-center{
+    flex: 4;
+}
+.header-center #menu{
+    display: flex ;
+    list-style: none;
+}
+.header-center #menu li{
+    list-style: none;
+    height: 40px;
+}
+.header-center #menu li a{
+    list-style: none;
+    height: 40px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+.header-center #menu li a:hover{
+    list-style: none;
+    height: 40px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    text-decoration: none;
+    background-color: var(--light-color);
+    color: var(--text-black);
+}
+
+.header-center #menu li:nth-child(3) a {
+    list-style: none;
+    text-decoration: none;
+    height: 40px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    background-color: var(--primary-color);
+    color: var(--text-white);
+}
+.header-right button{
+    margin-left: 20px;
+}
+.header-right .cart{
+    height: 45px;
+    background-color: var(--light-color);
+    border-radius: var(--border-radius);
+    width: 45px;
+    border: none;
+}
+
+.main-content{
+    height: 500px;
+    width: 100%;
+    border: 50%;
+    background-image: url(../css/image/kijana.forum.jpg);
+    color: #ffffff;
+}
+/* .main-content{
+    position: absolute;
+    top: 50px;
+} */
+.farm-to-table{
+    /* height: 40px; */
+    width: fit-content;
+    background-color: var(--);
+    color:var(--text-white) ;
+    padding: 10px;
+    /* position: absolute; */
+    /* left:30%; */
+    /* top:40% ; */
+    border:1px solid rgb(255, 255green, 0.08);
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.Nunua-bidhaa{
+    background-color: red;
+    color: var(--text-white);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+}
+.Explore-experiences{
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.08);
+    color:var(--text-white) ;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(8px);
+    text-transform: uppercase;
+
+}
+
+
+
